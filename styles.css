@@ -1,0 +1,98 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1em 0;
+    text-align: center;
+    position: relative;
+}
+
+header nav {
+    position: absolute;
+    top: 1em;
+    right: 1em;
+}
+
+header nav button {
+    background-color: #e76bba;
+    color: #fff;
+    border: none;
+    padding: 0.5em 1em;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+header nav button:hover {
+    background-color: #e76bba;
+}
+
+.container {
+    max-width: 800px;
+    margin: 2em auto;
+    background-color: #fff;
+    padding: 2em;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.task-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em 0;
+    border-bottom: 1px solid #ccc;
+}
+
+.task-item span {
+    flex: 1;
+}
+
+.task-status {
+    margin-left: 1em;
+}
+
+.completed {
+    text-decoration: line-through;
+}
+
+.complete-btn {
+    background-color: transparent;
+    border: 2px solid #ff93d7;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+
+.complete-btn.completed {
+    background-color: #ff93d7;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form input, form button {
+    padding: 0.5em;
+    margin: 0.5em 0;
+}
+
+form button {
+    background-color: #ff93d7;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#message {
+    margin-top: 1em;
+    color: green;
+}
